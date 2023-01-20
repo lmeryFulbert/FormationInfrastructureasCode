@@ -9,6 +9,7 @@ mysql_user: "admin"
 mysql_password: "admin"
 
 #HTTP Settings
-http_host: "sportludique"
-http_conf: "sportludique.conf"
+http_host: "mydemo"
+http_domain: "lan.sio.lyceefulbert.fr"
+http_conf: "mydemo.conf"
 http_port: "80"

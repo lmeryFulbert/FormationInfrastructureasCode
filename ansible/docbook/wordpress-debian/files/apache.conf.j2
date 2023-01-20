@@ -1,7 +1,6 @@
 <VirtualHost *:{{ http_port }}>
     ServerAdmin webmaster@localhost
-    ServerName {{ http_host }}.fr
-    ServerAlias www.{{ http_host }}.fr
+    ServerName {{ http_host }}.{{ http_domain }}
     DocumentRoot /var/www/{{ http_host }}/wordpress
     ErrorLog ${APACHE_LOG_DIR}/error.log
     CustomLog ${APACHE_LOG_DIR}/access.log combined
