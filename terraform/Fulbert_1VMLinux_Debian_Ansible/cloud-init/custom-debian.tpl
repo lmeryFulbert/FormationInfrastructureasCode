@@ -22,4 +22,4 @@ runcmd:
   - touch /etc/ansible/hosts
   - chmod 777 /etc/ansible/hosts
   - echo "localhost ansible_connection=local" >> /etc/ansible/hosts
-  - [ ansible-playbook, "/FormationInfrastructureasCode/ansible/docbook/install-apache.yml" ]
+  - [ ansible-playbook, "/FormationInfrastructureasCode/ansible/playbook/install-apache.yml" ]
