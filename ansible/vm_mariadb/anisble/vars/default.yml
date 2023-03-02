@@ -1,0 +1,5 @@
+#MySQL Settings
+mysql_root_password: "thesuperpass"
+mysql_db: "dbtest"
+mysql_user: "admin"
+mysql_password: "admin"
